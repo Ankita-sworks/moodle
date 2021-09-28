@@ -900,6 +900,8 @@ span#mod_quiz_navblock_title {
 }*/
 @media(max-width: 900px){
     .que.truefalse .answer div.r0, .que.truefalse .answer div.r1{  margin-left: 60px;margin-bottom: 20px; }
+
+
 }
 @media(max-width: 768px){
     .myClass-14 .answercontainer{ width: 100%; margin-top: 0px;}
@@ -1108,4 +1110,66 @@ div#left-arrow {
     top: 9px;
     POSITION: absolute;
     font-size: 25px;
+}
+div#time-left {
+    text-align: right;
+    position: relative;
+    right: 0;
+    font-size: 20px;
+    padding-right: 160px;
+}
+div#quiz-timer {
+    display: none;
+}
+}
+div#user-picture {
+    display: none;
+}
+.time-left-quiz
+{
+    background: #333333;
+    color: #fff;
+    padding: 0px 4px 3px;
+    border: 3px solid #666;
+    border-radius: 10px;
+
+}
+
+
+@media only screen and (max-width: 830px) {
+  .path-mod-quiz .othernav a, .path-mod-quiz .othernav input {
+    left: 90px !important;
+    width: 85px !important;
+}
+}
+@media only screen and (max-width: 700px) {
+  .path-mod-quiz .othernav a, .path-mod-quiz .othernav input {
+    /*left: 66px !important;
+    width: 74px !important;*/
+    position: unset;
+    margin-right: 170px;
+}
+div#newElement {
+     top: -35px;
+    left: 170px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  .path-mod-quiz .othernav a, .path-mod-quiz .othernav input {
+
+    margin-right: 160px;
+}
+div#newElement {
+    left: 75px;
+}
+}
+@media only screen and (max-width: 400px) {
+  .path-mod-quiz .othernav a, .path-mod-quiz .othernav input {
+
+    margin-right: 160px;
+}
+div#newElement {
+    left: 75px;
+}
 }
